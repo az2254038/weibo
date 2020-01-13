@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e3f0581-07d5-49e1-8190-4b34fb7a89c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_12_19_031044_add_activation_to_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/confirm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/weibo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/weibo.iml" afterDir="false" />
+    <list default="true" id="a4f21ffe-655b-43ec-b15f-ebbb556bc8d5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SessionsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sessions/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,10 +118,7 @@
       <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1VKGBTC7fa5tOdT4ZiPPZ3W69x6" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1WI0HP6nugj09NjDMcW4aBG5tWl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -136,13 +127,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mes_laravel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -163,18 +154,20 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3e3f0581-07d5-49e1-8190-4b34fb7a89c6" name="Default Changelist" comment="" />
-      <created>1576994237848</created>
+      <changelist id="a4f21ffe-655b-43ec-b15f-ebbb556bc8d5" name="Default Changelist" comment="" />
+      <created>1578821715500</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576994237848</updated>
-      <workItem from="1576994239641" duration="1518000" />
-      <workItem from="1577008717695" duration="12753000" />
-      <workItem from="1577153058296" duration="8730000" />
+      <updated>1578821715500</updated>
+      <workItem from="1578821727796" duration="1420000" />
+      <workItem from="1578823191129" duration="2231000" />
+      <workItem from="1578827253849" duration="1572000" />
+      <workItem from="1578881503557" duration="82000" />
+      <workItem from="1578881599426" duration="6674000" />
     </task>
     <servers />
   </component>
@@ -182,21 +175,21 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="278" width="424" height="491" key="FileChooserDialogImpl" timestamp="1577093760704">
+    <state x="418" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578822827511">
       <screen x="0" y="27" width="1920" height="987" />
     </state>
-    <state x="743" y="278" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.987@0.27.1920.987" timestamp="1577093760704" />
-    <state x="756" y="441" width="398" height="166" key="NewPhpFileDialog" timestamp="1577090966596">
+    <state x="418" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.987@0.27.1920.987" timestamp="1578822827511" />
+    <state x="441" y="155" width="1037" height="737" key="SettingsEditor" timestamp="1578881585557">
       <screen x="0" y="27" width="1920" height="987" />
     </state>
-    <state x="756" y="441" width="398" height="166" key="NewPhpFileDialog/0.27.1920.987@0.27.1920.987" timestamp="1577090966596" />
-    <state x="614" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1577153059397">
+    <state x="441" y="155" width="1037" height="737" key="SettingsEditor/0.27.1920.987@0.27.1920.987" timestamp="1578881585557" />
+    <state x="614" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1578881609363">
       <screen x="0" y="27" width="1920" height="987" />
     </state>
-    <state x="614" y="348" key="com.intellij.ide.util.TipDialog/0.27.1920.987@0.27.1920.987" timestamp="1577153059397" />
-    <state x="529" y="164" width="861" height="712" key="find.popup" timestamp="1577090950469">
+    <state x="614" y="348" key="com.intellij.ide.util.TipDialog/0.27.1920.987@0.27.1920.987" timestamp="1578881609363" />
+    <state x="624" y="235" key="run.anything.popup" timestamp="1578822822221">
       <screen x="0" y="27" width="1920" height="987" />
     </state>
-    <state x="529" y="164" width="861" height="712" key="find.popup/0.27.1920.987@0.27.1920.987" timestamp="1577090950469" />
+    <state x="624" y="235" key="run.anything.popup/0.27.1920.987@0.27.1920.987" timestamp="1578822822221" />
   </component>
 </project>
