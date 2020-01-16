@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f21ffe-655b-43ec-b15f-ebbb556bc8d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/shared/_feed.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Policies/StatusPolicy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/shared/_feed.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shared/_feed.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/shared/_status_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shared/_status_form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/statuses/_status.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/statuses/_status.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +186,7 @@
       <workItem from="1578827253849" duration="1572000" />
       <workItem from="1578881503557" duration="82000" />
       <workItem from="1578881599426" duration="31300000" />
-      <workItem from="1579058288954" duration="17878000" />
+      <workItem from="1579058288954" duration="29104000" />
     </task>
     <servers />
   </component>
@@ -196,6 +197,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="185" width="800" height="684" key="#Updates" timestamp="1579144821943">
+      <screen x="0" y="27" width="1920" height="987" />
+    </state>
+    <state x="555" y="185" width="800" height="684" key="#Updates/0.27.1920.987@0.27.1920.987" timestamp="1579144821943" />
     <state x="418" y="178" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578997351910">
       <screen x="0" y="27" width="1920" height="987" />
     </state>
