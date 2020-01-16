@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4f21ffe-655b-43ec-b15f-ebbb556bc8d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/StatusesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/shared/_status_form.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/shared/_feed.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Status.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Status.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +185,7 @@
       <workItem from="1578827253849" duration="1572000" />
       <workItem from="1578881503557" duration="82000" />
       <workItem from="1578881599426" duration="31300000" />
-      <workItem from="1579058288954" duration="13780000" />
+      <workItem from="1579058288954" duration="17878000" />
     </task>
     <servers />
   </component>
@@ -205,10 +204,10 @@
       <screen x="0" y="27" width="1920" height="987" />
     </state>
     <state width="273" height="606" key="HiddenNamespacesPopup/0.27.1920.987@0.27.1920.987" timestamp="1578995027155" />
-    <state x="756" y="441" width="398" height="166" key="NewPhpFileDialog" timestamp="1579079863112">
+    <state x="756" y="441" width="398" height="166" key="NewPhpFileDialog" timestamp="1579091392760">
       <screen x="0" y="27" width="1920" height="987" />
     </state>
-    <state x="756" y="441" width="398" height="166" key="NewPhpFileDialog/0.27.1920.987@0.27.1920.987" timestamp="1579079863112" />
+    <state x="756" y="441" width="398" height="166" key="NewPhpFileDialog/0.27.1920.987@0.27.1920.987" timestamp="1579091392760" />
     <state x="441" y="155" width="1037" height="737" key="SettingsEditor" timestamp="1578881585557">
       <screen x="0" y="27" width="1920" height="987" />
     </state>
